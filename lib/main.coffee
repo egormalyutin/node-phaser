@@ -8,6 +8,7 @@ jsdom  = require 'jsdom'
 codePath   = path.resolve __dirname, './phaser-source.min.js'
 codeBuffer = fs.readFileSync codePath
 code       = codeBuffer.toString()
+
 # patch code
 code = code.replace 'if(!this.device.canvas)throw new Error("Phaser.Game - Cannot create Canvas or WebGL context, aborting.");', ''
 
