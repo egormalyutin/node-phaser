@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "main": "./lib/main.js",
   "license": "MIT",
+  "keywords": ["phaser", "server", "node", "node.js", "game", "games"],
   "dependencies": {
     "canvas": "^1.6.9",
     "jsdom": "^11.5.1"
-  }
+  },
+  "author": "egorgl"
 }
