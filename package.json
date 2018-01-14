@@ -1,7 +1,7 @@
 {
   "name": "node-phaser",
   "description": "Run Phaser on your Node.JS server!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/main.js",
   "license": "MIT",
   "keywords": ["phaser", "server", "node", "node.js", "game", "games"],
