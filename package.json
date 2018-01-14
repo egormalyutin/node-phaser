@@ -1,0 +1,11 @@
+{
+  "name": "node-phaser",
+  "description": "Run Phaser on your Node.JS server!",
+  "version": "1.0.0",
+  "main": "lib/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^1.6.9",
+    "jsdom": "^11.5.1"
+  }
+}
